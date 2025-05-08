@@ -11,7 +11,7 @@ export default function MyFuture() {
       </ul>
       <blockquote>"Кожен професіонал колись був новачком."</blockquote>
       <p>Робота мрії: працювати у сфері геймдеву.</p>
-      <img src="/ajozelgu2fze1.jpeg" />
+      <img src={`${process.env.PUBLIC_URL}/ajozelgu2fze1.jpeg`} />
     </div>
   );
 }
