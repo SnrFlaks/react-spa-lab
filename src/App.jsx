@@ -8,7 +8,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-spa-lab">
       <Header />
       <main>
         <Routes>
